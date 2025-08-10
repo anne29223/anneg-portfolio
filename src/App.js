@@ -89,6 +89,7 @@ function App() {
             <div key={title} style={styles.card}>
               <img src={image} alt={title} style={styles.image} />
               <h3 style={styles.projectTitle}>
+                <img src={require('./logo.svg')} alt="logo" style={{height: '1.2em', verticalAlign: 'middle', marginRight: 8}} />
                 {title}
                 <FontAwesomeIcon icon={faLaptop} style={{marginLeft: 8, fontSize: "1.1em"}} title="Web App" />
                 <FontAwesomeIcon icon={faMobileAlt} style={{marginLeft: 8, fontSize: "1.1em"}} title="Mobile App" />
