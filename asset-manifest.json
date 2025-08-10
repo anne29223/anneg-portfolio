@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/anneg-portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/anneg-portfolio/static/js/main.f4cf8801.js",
+    "main.js": "/anneg-portfolio/static/js/main.850c8667.js",
     "static/js/453.97b90a09.chunk.js": "/anneg-portfolio/static/js/453.97b90a09.chunk.js",
     "index.html": "/anneg-portfolio/index.html",
     "main.e6c13ad2.css.map": "/anneg-portfolio/static/css/main.e6c13ad2.css.map",
-    "main.f4cf8801.js.map": "/anneg-portfolio/static/js/main.f4cf8801.js.map",
+    "main.850c8667.js.map": "/anneg-portfolio/static/js/main.850c8667.js.map",
     "453.97b90a09.chunk.js.map": "/anneg-portfolio/static/js/453.97b90a09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f4cf8801.js"
+    "static/js/main.850c8667.js"
   ]
 }
