@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLaptop, faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
 const skills = [
@@ -12,26 +14,26 @@ const projects = [
   {
     title: "Customer Support AI Chatbot",
     description:
-      "AI-powered chatbot automating customer service workflows. Cross-platform Web 💻 & Mobile 📱 app with analytics dashboard.",
+      "AI-powered chatbot automating customer service workflows. Cross-platform Web & Mobile app with analytics dashboard.",
     tech: "React, Node.js, OpenAI API, Firebase",
     image:
-      "https://via.placeholder.com/400x250/4A90E2/FFFFFF?text=AI+Chatbot",
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80",
   },
   {
     title: "Document Summarization Tool",
     description:
-      "Generative AI automation that summarizes large PDFs and web pages quickly. Web 💻 & Mobile 📱 ready.",
+      "Generative AI automation that summarizes large PDFs and web pages quickly. Web & Mobile ready.",
     tech: "React, Python (FastAPI), LangChain",
     image:
-      "https://via.placeholder.com/400x250/50E3C2/000000?text=Doc+Summarizer",
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=400&q=80",
   },
   {
     title: "Task Automation Workflow",
     description:
-      "Automates business workflows using AI and API integrations. Runs on Web 💻 & Mobile 📱 for flexible use.",
+      "Automates business workflows using AI and API integrations. Runs on Web & Mobile for flexible use.",
     tech: "n8n, Zapier, Webhooks, REST APIs",
     image:
-      "https://via.placeholder.com/400x250/F5A623/000000?text=Workflow+Automation",
+      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80",
   },
 ];
 
@@ -87,13 +89,9 @@ function App() {
             <div key={title} style={styles.card}>
               <img src={image} alt={title} style={styles.image} />
               <h3 style={styles.projectTitle}>
-                {title}{" "}
-                <span role="img" aria-label="web" style={styles.icon}>
-                  💻
-                </span>
-                <span role="img" aria-label="mobile" style={styles.icon}>
-                  📱
-                </span>
+                {title}
+                <FontAwesomeIcon icon={faLaptop} style={{marginLeft: 8, fontSize: "1.1em"}} title="Web App" />
+                <FontAwesomeIcon icon={faMobileAlt} style={{marginLeft: 8, fontSize: "1.1em"}} title="Mobile App" />
               </h3>
               <p style={styles.description}>{description}</p>
               <p style={styles.tech}>
@@ -107,28 +105,13 @@ function App() {
       <section style={styles.contact}>
         <h2>Contact</h2>
         <p>
-          Email:{" "}
-          <a href="mailto:your.email@example.com">your.email@example.com</a>
+          Email: <a href="mailto:anneg.dev99@gmail.com">anneg.dev99@gmail.com</a>
         </p>
         <p>
-          LinkedIn:{" "}
-          <a
-            href="https://linkedin.com/in/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            linkedin.com/in/your-profile
-          </a>
+            LinkedIn: <a href="https://www.linkedin.com/in/anne-g-388aa5379/" target="_blank" rel="noopener noreferrer">linkedin.com/in/anne-g-388aa5379</a>
         </p>
         <p>
-          GitHub:{" "}
-          <a
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            github.com/yourusername
-          </a>
+          GitHub: <a href="https://github.com/anne29223" target="_blank" rel="noopener noreferrer">github.com/anne29223</a>
         </p>
       </section>
 
