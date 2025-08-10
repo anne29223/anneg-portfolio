@@ -238,7 +238,7 @@ const styles = {
     padding: "1rem",
     background: "#eee",
     fontSize: "0.85rem",
-    color: "#666",
+    color: "#667",
   },
 };
 
